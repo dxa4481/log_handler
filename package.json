@@ -1,0 +1,24 @@
+{
+  "name": "log_handler",
+  "version": "1.0.0",
+  "description": "a handler for logger.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxa4481/log_handler.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.5"
+  },
+  "author": "Dylan Ayrey",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dxa4481/log_handler/issues"
+  },
+  "homepage": "https://github.com/dxa4481/log_handler#readme"
+}
