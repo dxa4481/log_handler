@@ -39,11 +39,12 @@ app.post('/loggingEndpoint', function(req, res){
     newLog.userAgent = req.body.userAgent;
     newLog.save(function(err){
         if(err){
-            res.sendStatus(400);
+            return res.sendStatus(400);
         }else{
-            res.sendStatus(200);
+            return res.sendStatus(200);
         }
     });
+    return res.sendStatus(500);
 });
 
 app.listen(8002);
