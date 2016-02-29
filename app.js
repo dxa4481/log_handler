@@ -44,7 +44,6 @@ app.post('/loggingEndpoint', function(req, res){
             return res.sendStatus(200);
         }
     });
-    return res.sendStatus(500);
 });
 
 app.listen(8002);
